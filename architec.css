@@ -79,17 +79,52 @@ font-weight: bold;
 
     margin-bottom: 25px;
 }
+/* for 1st main sec */
+.fst-sec{
+
+
+width: 1140px;
+margin: 30px auto;
+align-items: center; 
+}
+.main-fstpics{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     gap: 24px;
+     margin-right: 74px;
+
+}
+.main-discrp{
+    max-width: 537px;
+    
+
+}
+
+
+
+
+
+
 /* for responsive banner */
 @media screen and (max-width:576px) {
 
-    .disply-flex{
+    .nev,.header-anchr{
         flex-direction: column;
     }
     .bener-img{
         max-width: 100%;
     }
+      .fst-sec{
+        flex-direction: column;
+        max-width: 100%;
+        margin:0 auto;
+        
+      }
 
-    
+    .main-fstpics{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 30px;
+    }
 
 }
 
