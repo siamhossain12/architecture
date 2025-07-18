@@ -1,0 +1,95 @@
+/* for heder sec */
+.arc-head{
+    
+
+background-color: rgba(255, 144, 14, 0.1);
+justify-content: space-between;
+
+}
+.htitle,.header-anchr{
+     max-width: 1140px;
+margin: 0 auto;
+
+}
+.htitle{
+font-weight: bold;
+font-size: 3rem;
+
+}
+.disply-flex{
+    
+ display: flex;
+
+}
+.arc-head{
+
+
+}
+.header-anchr{
+   
+   list-style: none;
+   
+
+}
+.anch{
+       
+       
+     
+}
+.oranch{
+
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #424242;
+    margin-right: 30px;
+}
+.bener{
+        
+        justify-content: center;
+        text-align: center;
+
+
+}
+.bener-top{
+   max-width: 772px;
+   
+   margin: 0 auto;
+   margin-top: 145px;
+   margin-bottom: 50px;
+
+}
+.b-title{
+font-weight: bold;
+ font-size: 4rem;
+
+}
+.bt-discription{
+ color: rgba(114, 114, 114, 1);
+}
+.same-btn{
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    border: none;
+}
+.bener-img{
+
+    margin-bottom: 25px;
+}
+/* for responsive banner */
+@media screen and (max-width:576px) {
+
+    .disply-flex{
+        flex-direction: column;
+    }
+    .bener-img{
+        max-width: 100%;
+    }
+
+    
+
+}
+
